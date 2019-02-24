@@ -12,5 +12,7 @@
       <a mat-icon-button (click)="toggleFilmDetails()">Show film detail</a>
     </mat-card-actions>
     <app-films-detail *ngIf="filmsDetailIsVisible" [film]=film></app-films-detail>
+    <button routerLink="{{film.id}}" mat-raised-button>Edit</button>
+    <button (click)="deleteMovie(film.id)" mat-raised-button>Delete</button>
   </mat-card>
 </section>

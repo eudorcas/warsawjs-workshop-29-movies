@@ -16,6 +16,7 @@ import { FilmsListComponent } from './films/films-list/films-list.component';
 import { FilmsDetailComponent } from './films/films-list/films-detail/films-detail.component';
 import { NewFilmComponent } from './films/new-film/new-film.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { EditFilmComponent } from './films/edit-film/edit-film.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NavigationComponent } from './navigation/navigation.component';
     FilmsListComponent,
     FilmsDetailComponent,
     NewFilmComponent,
-    NavigationComponent
+    NavigationComponent,
+    EditFilmComponent
   ],
   imports: [
     BrowserModule,

@@ -7,8 +7,7 @@ import {FilmsService} from '../../core/services/films.service';
   templateUrl: './films-list.component.html',
   styleUrls: ['./films-list.component.scss']
 })
-export class FilmsListComponent implements OnInit {
-  public name = 'Films list';
+export class FilmsListComponent implements OnInit{
   public films: Film[] = [];
   public filmsDetailIsVisible = false;
   public errorMessage: string;
@@ -27,8 +26,23 @@ export class FilmsListComponent implements OnInit {
       }
     );
   }
+
   toggleFilmDetails(): void {
     this.filmsDetailIsVisible = !this.filmsDetailIsVisible;
   }
+  public deleteMovie(id: number): void {
+    this.filmsService.deleteFilm(id).subscribe(() => {
+        this.filmsService.getFilms().subscribe(
+          films => {
+            this.films = films;
+          },
+          error => {
+            this.errorMessage = error;
+          }
+        );
+      }
+    );
+  }
+
 
 }

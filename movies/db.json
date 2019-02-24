@@ -1,36 +1,12 @@
 {
   "movies": [
     {
-      "id": 1,
-      "title": "Terminator",
-      "genre": "Action",
-      "numberInStock": 6,
-      "dailyRentalRate": 2.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
-    },
-    {
-      "id": 2,
-      "title": "Die Hard",
-      "genre": "Action",
-      "numberInStock": 5,
-      "dailyRentalRate": 2.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
-    },
-    {
-      "id": 3,
-      "title": "Get Out",
-      "genre": "Thriller",
-      "numberInStock": 8,
-      "dailyRentalRate": 3.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
-    },
-    {
-      "id": 4,
-      "title": "Trip to Italy",
+      "title": "Trip to Mars",
       "genre": "Comedy",
       "numberInStock": 7,
       "dailyRentalRate": 3.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
+      "id": 4
     },
     {
       "id": 5,
@@ -71,22 +47,6 @@
       "numberInStock": 7,
       "dailyRentalRate": 3.5,
       "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
-    },
-    {
-      "title": "hffd",
-      "genre": "hdffd",
-      "numberInStock": "4",
-      "dailyRentalRate": "4",
-      "imageUrl": "ggd",
-      "id": 10
-    },
-    {
-      "title": "gdfgfd",
-      "genre": "gfdgfd",
-      "numberInStock": "4",
-      "dailyRentalRate": "4",
-      "imageUrl": "fsdgdsf",
-      "id": 11
     }
   ]
 }
