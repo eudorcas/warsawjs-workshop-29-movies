@@ -1,0 +1,16 @@
+<section class="film-list" *ngIf="films.length">
+  <h1></h1>
+  <mat-card class="film-card" *ngFor="let film of films; let i = index">
+    <mat-card-title>{{film.title}}</mat-card-title>
+    <mat-card-content>
+      <img
+        mat-card-image
+        src={{film.imageUrl}}>
+      <mat-card-subtitle></mat-card-subtitle>
+    </mat-card-content>
+    <mat-card-actions>
+      <a mat-icon-button (click)="toggleFilmDetails()">Show film detail</a>
+    </mat-card-actions>
+    <app-films-detail *ngIf="filmsDetailIsVisible" [film]=film></app-films-detail>
+  </mat-card>
+</section>

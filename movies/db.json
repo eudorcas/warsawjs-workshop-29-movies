@@ -1,0 +1,76 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Terminator",
+      "genre": "Action",
+      "numberInStock": 6,
+      "dailyRentalRate": 2.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 2,
+      "title": "Die Hard",
+      "genre": "Action",
+      "numberInStock": 5,
+      "dailyRentalRate": 2.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 3,
+      "title": "Get Out",
+      "genre": "Thriller",
+      "numberInStock": 8,
+      "dailyRentalRate": 3.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 4,
+      "title": "Trip to Italy",
+      "genre": "Comedy",
+      "numberInStock": 7,
+      "dailyRentalRate": 3.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 5,
+      "title": "Airplane",
+      "genre": "Comedy",
+      "numberInStock": 7,
+      "dailyRentalRate": 3.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 6,
+      "title": "Wedding Crashers",
+      "genre": "Comedy",
+      "numberInStock": 7,
+      "dailyRentalRate": 3.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 7,
+      "title": "Gone Girl",
+      "genre": "Thriller",
+      "numberInStock": 7,
+      "dailyRentalRate": 4.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 8,
+      "title": "The Sixth Sense",
+      "genre": "Thriller",
+      "numberInStock": 4,
+      "dailyRentalRate": 3.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 9,
+      "title": "The Avengers",
+      "genre": "Action",
+      "numberInStock": 7,
+      "dailyRentalRate": 3.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    }
+  ]
+}
