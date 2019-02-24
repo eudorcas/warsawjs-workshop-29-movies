@@ -17,6 +17,7 @@ import { FilmsDetailComponent } from './films/films-list/films-detail/films-deta
 import { NewFilmComponent } from './films/new-film/new-film.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { EditFilmComponent } from './films/edit-film/edit-film.component';
+import { SearchPipe } from './shared/search.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { EditFilmComponent } from './films/edit-film/edit-film.component';
     FilmsDetailComponent,
     NewFilmComponent,
     NavigationComponent,
-    EditFilmComponent
+    EditFilmComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
