@@ -3,7 +3,7 @@
 </mat-form-field>
 <section class="film-list" *ngIf="films.length">
   <mat-card class="film-card" *ngFor="let film of films | search:'title,genre':query ; let i = index">
-    <mat-card-title>{{film.title}}</mat-card-title>
+    <mat-card-title class="mb-3">{{film.title}}</mat-card-title>
     <mat-card-content class= "m-3">
       <img
         mat-card-image

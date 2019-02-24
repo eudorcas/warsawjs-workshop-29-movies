@@ -1,14 +1,6 @@
 {
   "movies": [
     {
-      "title": "Trip to Mars 12",
-      "genre": "Comedy",
-      "numberInStock": 7,
-      "dailyRentalRate": 3.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
-      "id": 4
-    },
-    {
       "id": 5,
       "title": "Airplane",
       "genre": "Comedy",
