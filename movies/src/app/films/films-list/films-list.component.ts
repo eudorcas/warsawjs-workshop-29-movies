@@ -11,6 +11,7 @@ export class FilmsListComponent implements OnInit{
   public films: Film[] = [];
   public filmsDetailIsVisible = false;
   public errorMessage: string;
+  public showId: number = null;
 
   constructor(private filmsService: FilmsService) {
 
@@ -27,8 +28,9 @@ export class FilmsListComponent implements OnInit{
     );
   }
 
-  toggleFilmDetails(): void {
+  toggleFilmDetails(id): void {
     this.filmsDetailIsVisible = !this.filmsDetailIsVisible;
+    this.showId = id;
   }
   public deleteMovie(id: number): void {
     this.filmsService.deleteFilm(id).subscribe(() => {

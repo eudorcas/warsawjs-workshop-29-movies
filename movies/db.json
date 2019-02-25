@@ -1,44 +1,28 @@
 {
   "movies": [
     {
-      "id": 5,
-      "title": "Airplane",
-      "genre": "Comedy",
-      "numberInStock": 7,
-      "dailyRentalRate": 3.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
-    },
-    {
-      "id": 6,
-      "title": "Wedding Crashers",
-      "genre": "Comedy",
-      "numberInStock": 7,
-      "dailyRentalRate": 3.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
-    },
-    {
-      "id": 7,
-      "title": "Gone Girl",
-      "genre": "Thriller",
-      "numberInStock": 7,
-      "dailyRentalRate": 4.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
-    },
-    {
-      "id": 8,
-      "title": "The Sixth Sense",
-      "genre": "Thriller",
-      "numberInStock": 4,
-      "dailyRentalRate": 3.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
-    },
-    {
-      "id": 9,
-      "title": "The Avengers",
+      "title": "The Avenge",
       "genre": "Action",
       "numberInStock": 7,
       "dailyRentalRate": 3.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
+      "id": 9
+    },
+    {
+      "title": "Rambo",
+      "genre": "action",
+      "numberInStock": "2",
+      "dailyRentalRate": "3",
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
+      "id": 10
+    },
+    {
+      "title": "Trip to Mars",
+      "genre": "gggg",
+      "numberInStock": "4",
+      "dailyRentalRate": "4",
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
+      "id": 11
     }
   ]
 }

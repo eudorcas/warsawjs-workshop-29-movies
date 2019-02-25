@@ -11,9 +11,9 @@
       <mat-card-subtitle></mat-card-subtitle>
     </mat-card-content>
     <mat-card-actions class="m-1">
-      <button mat-raised-button (click)="toggleFilmDetails()">Show film detail</button>
+      <button mat-raised-button (click)="toggleFilmDetails(film.id)">Show film detail</button>
     </mat-card-actions>
-    <app-films-detail *ngIf="filmsDetailIsVisible" [film]=film></app-films-detail>
+    <app-films-detail *ngIf="filmsDetailIsVisible && film.id===showId" [film]=film></app-films-detail>
     <button routerLink="{{film.id}}" mat-raised-button>Edit</button>
     <button (click)="deleteMovie(film.id)" mat-raised-button>Delete</button>
   </mat-card>
