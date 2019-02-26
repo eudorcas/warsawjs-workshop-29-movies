@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup, Validators, FormBuilder } from '@angular/forms';
+import {Component, OnInit} from '@angular/core';
+import {FormControl, FormGroup, Validators, FormBuilder} from '@angular/forms';
 import {Router, ActivatedRoute, Params} from '@angular/router';
 import {FilmsService} from '../../core/services/films.service';
 import {Film} from '../film';
@@ -27,14 +27,14 @@ export class EditFilmComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.route.params.subscribe( (params: Params) => {
+    this.route.params.subscribe((params: Params) => {
         this.id = params.id;
         this.getFilmById();
       }
     );
-    }
+  }
 
-    onSubmit() {
+  onSubmit() {
     if (this.filmEditForm.invalid) {
       return;
     }
@@ -53,6 +53,7 @@ export class EditFilmComponent implements OnInit {
       }
     );
   }
+
   private initForm() {
     const title = this.film.title;
     const genre = this.film.genre;

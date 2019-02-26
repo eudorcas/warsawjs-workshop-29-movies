@@ -1,14 +1,6 @@
 {
   "movies": [
     {
-      "title": "The Avenge",
-      "genre": "Action",
-      "numberInStock": 7,
-      "dailyRentalRate": 3.5,
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
-      "id": 9
-    },
-    {
       "title": "Rambo",
       "genre": "action",
       "numberInStock": "2",
@@ -17,12 +9,28 @@
       "id": 10
     },
     {
-      "title": "Trip to Mars",
+      "title": "Trip to Mars 1",
       "genre": "gggg",
       "numberInStock": "4",
       "dailyRentalRate": "4",
       "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
       "id": 11
+    },
+    {
+      "title": "Green Book",
+      "genre": "Comedy",
+      "numberInStock": "4",
+      "dailyRentalRate": "5",
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
+      "id": 12
+    },
+    {
+      "title": "Barbie",
+      "genre": "Family",
+      "numberInStock": "5",
+      "dailyRentalRate": "5",
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
+      "id": 13
     }
   ]
 }

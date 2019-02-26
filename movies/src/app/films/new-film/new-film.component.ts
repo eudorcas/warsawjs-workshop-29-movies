@@ -22,7 +22,7 @@ export class NewFilmComponent implements OnInit {
     if (this.filmForm.invalid) {
       return;
     }
-    this.filmsService.addFilm(this.filmForm.value as Film);
+    this.filmsService.addFilm(this.filmForm.value as Film).subscribe();
     this.router.navigate(['/films']);
   }
 

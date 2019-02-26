@@ -14,7 +14,7 @@ const routes: Routes = [{
     path: 'films', component: FilmsListComponent
   },
   {
-    path: '', component: FilmsListComponent
+    path: '', redirectTo: 'films', pathMatch: 'full'
   }];
 
 @NgModule({

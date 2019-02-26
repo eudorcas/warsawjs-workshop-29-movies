@@ -18,14 +18,7 @@ export class FilmsService {
   }
 
   addFilm(film: Film) {
-    this.httpClient.post(this.moviesUrl, film).subscribe(
-      data => {
-        console.log('POST Request is successful ', data);
-      },
-      error => {
-        console.log('Error', error);
-      }
-    );
+    return this.httpClient.post(this.moviesUrl, film);
   }
 
   deleteFilm(id: number) {
