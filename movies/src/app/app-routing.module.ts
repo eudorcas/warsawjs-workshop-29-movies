@@ -4,6 +4,7 @@ import {NewFilmComponent} from './films/new-film/new-film.component';
 import {FilmsListComponent} from './films/films-list/films-list.component';
 import {EditFilmComponent} from './films/edit-film/edit-film.component';
 
+
 const routes: Routes = [{
   path: 'new-film', component: NewFilmComponent
 },

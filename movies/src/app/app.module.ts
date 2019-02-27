@@ -19,6 +19,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { EditFilmComponent } from './films/edit-film/edit-film.component';
 import { SearchPipe } from './shared/search.pipe';
 
+
 @NgModule({
   declarations: [
     AppComponent,

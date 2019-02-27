@@ -9,6 +9,7 @@ import {Observable} from 'rxjs';
 export class FilmsService {
 
   private moviesUrl = 'http://localhost:3000/movies';
+  private apiUrl = 'http://omdbapi.com/?apikey=d58fb664&t=';
 
   constructor(private httpClient: HttpClient) {
   }

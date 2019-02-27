@@ -1,52 +1,28 @@
 {
   "movies": [
     {
-      "title": "Rambo Bambo",
+      "title": "Rambo",
       "genre": "action",
       "numberInStock": "2",
       "dailyRentalRate": "3",
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTI5Mjg1MzM4NF5BMl5BanBnXkFtZTcwNTAyNzUzMw@@._V1_SX300.jpg",
       "id": 10
-    },
-    {
-      "title": "Trip to Mars 1",
-      "genre": "gggg",
-      "numberInStock": "4",
-      "dailyRentalRate": "4",
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
-      "id": 11
     },
     {
       "title": "Green Book",
       "genre": "Comedy",
       "numberInStock": "4",
       "dailyRentalRate": "5",
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjMyNzExNzQ5OV5BMl5BanBnXkFtZTgwNjM2MjIxNjM@._V1_SX300.jpg",
       "id": 12
     },
     {
-      "title": "Barbie",
-      "genre": "Family",
-      "numberInStock": "5",
+      "title": "Dirty Dancing",
+      "genre": "Romantic",
+      "numberInStock": "7",
       "dailyRentalRate": "5",
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
-      "id": 13
-    },
-    {
-      "title": "Django",
-      "genre": "Action",
-      "numberInStock": "4",
-      "dailyRentalRate": "4",
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
-      "id": 14
-    },
-    {
-      "title": "Reacty",
-      "genre": "Comedy",
-      "numberInStock": "5",
-      "dailyRentalRate": "5",
-      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png",
-      "id": 15
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTc3MDY3ODQ2OV5BMl5BanBnXkFtZTgwOTQ2NTYxMTE@._V1_SX300.jpg",
+      "id": 16
     }
   ]
 }

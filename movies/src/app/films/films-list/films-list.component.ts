@@ -36,7 +36,7 @@ export class FilmsListComponent implements OnInit{
     this.filmsService.deleteFilm(id).subscribe(() => {
         this.filmsService.getFilms().subscribe(
           films => {
-            this.films = films;
+            this.films = films.reverse();
           },
           error => {
             this.errorMessage = error;
