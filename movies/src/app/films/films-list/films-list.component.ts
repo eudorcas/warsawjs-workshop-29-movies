@@ -20,7 +20,7 @@ export class FilmsListComponent implements OnInit{
   ngOnInit() {
     this.filmsService.getFilms().subscribe(
       films => {
-        this.films = films;
+        this.films = films.reverse();
       },
       error => {
         this.errorMessage = error;

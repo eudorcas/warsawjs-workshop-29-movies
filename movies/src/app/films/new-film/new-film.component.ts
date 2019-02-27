@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
+import {Component, OnInit} from '@angular/core';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {FilmsService} from '../../core/services/films.service';
 import {Film} from '../film';
 import {Router} from '@angular/router';
@@ -12,18 +12,21 @@ import {Router} from '@angular/router';
 export class NewFilmComponent implements OnInit {
   filmForm: FormGroup;
 
-  constructor(private filmsService: FilmsService, private router: Router) { }
+  constructor(private filmsService: FilmsService, private router: Router) {
+  }
 
   ngOnInit() {
     this.initForm();
   }
 
-  onSubmit() {
+  async onSubmit() {
     if (this.filmForm.invalid) {
       return;
     }
-    this.filmsService.addFilm(this.filmForm.value as Film).subscribe();
-    this.router.navigate(['/films']);
+    await this.filmsService.addFilm(this.filmForm.value as Film).subscribe(() => {
+      this.router.navigate(['/films']);
+    });
+
   }
 
   private initForm() {

@@ -34,13 +34,16 @@ export class EditFilmComponent implements OnInit {
     );
   }
 
-  onSubmit() {
+  async onSubmit() {
     if (this.filmEditForm.invalid) {
       return;
     }
-    this.filmsService.editFilm(this.id, this.filmEditForm.value as Film).subscribe();
-    this.router.navigate(['/films']);
+    await this.filmsService.updateFilm(this.id, this.filmEditForm.value as Film).subscribe(() => {
+      this.router.navigate(['/films']);
+    });
+
   }
+
 
   getFilmById() {
     this.filmsService.getFilmById(this.id).subscribe(

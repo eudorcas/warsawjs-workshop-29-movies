@@ -29,7 +29,7 @@ export class FilmsService {
     return this.httpClient.get(this.moviesUrl + '/' + id);
   }
 
-  editFilm(id: number, film: Film) {
+  updateFilm(id: number, film: Film) {
     return this.httpClient.put(this.moviesUrl + '/' + id, film);
   }
 
